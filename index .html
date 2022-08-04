@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your favorite music is here </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="home">
+    <nav>
+        <ul>
+            <li class="brand"> <img src = "logo.jpg" alt="Spotify"> </li>
+            <li> Home </li>
+            <li> Features </li>
+            <li> About </li>
+        </ul>
+    </nav>
+
+    <div class="container">
+       
+        <div class="songList">
+            <h1>Best Songs - Come and Enjoy</h1>
+           <div class="songItem">
+            <img src="covers/1.jpg" alt="1">
+            <span class="songName"></span> </span>
+            <span class="songlistplay"> <span class="timer"> 04:35 <i id="0" class="fa songItemPlay fa-play-circle" aria-hidden="true"></i> </span>  </span>
+           </div>
+
+           <div class="songItem">
+            <img src="covers/1.jpg" alt="1">
+            <span class="songName"> </span>
+            <span class="songlistplay"> <span class="timer"> 04:35 <i id="1" class="fa songItemPlay fa-play-circle" aria-hidden="true"></i> </span>  </span>
+           </div>
+
+           <div class="songItem">
+            <img src="covers/1.jpg" alt="1">
+            <span class="songName"> </span>
+            <span class="songlistplay"> <span class="timer"> 04:35 <i id="2" class="fa songItemPlay fa-play-circle" aria-hidden="true"></i> </span>  </span>
+           </div>
+
+           <div class="songItem">
+            <img src="covers/1.jpg" alt="1">
+            <span class="songName"></span>
+            <span class="songlistplay"> <span class="timer"> 04:35 <i id="3" class="fa songItemPlay fa-play-circle" aria-hidden="true"></i> </span>  </span>
+           </div>
+
+           <div class="songItem">
+            <img src="covers/1.jpg" alt="1">
+            <span class="songName"> </span>
+            <span class="songlistplay"> <span class="timer"> 04:35 <i id="4" class="fa songItemPlay fa-play-circle" aria-hidden="true"></i> </span>  </span>
+           </div>
+
+           <div class="songItem">
+            <img src="covers/1.jpg" alt="1">
+            <span class="songName"> </span>
+            <span class="songlistplay"> <span class="timer"> 04:35 <i id="5" class="fa songItemPlay fa-play-circle" aria-hidden="true"></i> </span>  </span>
+           </div>
+        </div>
+        <div class="songBanner"></div>
+        <img src="background_img.jpg" alt="bg">
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fa fa-3x fa-step-backward" aria-hidden="true" id="previous"></i>
+            <i class="fa fa-3x fa-play-circle" aria-hidden="true" id="masterPlay"></i>
+            <i class="fa fa-3x fa-step-forward" aria-hidden="true" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="audio_anim.gif" alt="gif" id="gif"><span id ="masterSongName"> Mana k hum yaar nhi - KK </span>
+        </div>
+    </div>
+</div>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"> </script>
+    
+</body>
+</html>
